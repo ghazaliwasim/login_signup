@@ -1,0 +1,15 @@
+{{#if error}}
+
+    <p>{{error}}</p>
+
+{{/if}}
+
+<p>Please enter your new password</p>
+
+<form method="post" action="/setting/updatePassword/{{userEmail}}">
+	
+    <input type="text" name="password" >
+    	<input type="text" name="confirmPassword" >
+    <input type="submit" value="Submit" />
+
+</form>
