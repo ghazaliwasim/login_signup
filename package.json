@@ -9,7 +9,7 @@
   "author": "ghazali",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.673.0",
+    "aws-sdk": "^2.814.0",
     "bcrypt": "^4.0.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
